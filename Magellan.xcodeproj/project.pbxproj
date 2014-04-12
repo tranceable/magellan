@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7632417418F9C3C800B977CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7632417318F9C3C800B977CD /* Foundation.framework */; };
+		7632417618F9C3C800B977CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7632417518F9C3C800B977CD /* CoreGraphics.framework */; };
+		7632417818F9C3C800B977CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7632417718F9C3C800B977CD /* UIKit.framework */; };
+		7632417A18F9C3C800B977CD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7632417918F9C3C800B977CD /* CoreData.framework */; };
+		7632418018F9C3C800B977CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7632417E18F9C3C800B977CD /* InfoPlist.strings */; };
+		7632418218F9C3C800B977CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7632418118F9C3C800B977CD /* main.m */; };
+		7632418618F9C3C800B977CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7632418518F9C3C800B977CD /* AppDelegate.m */; };
+		7632418918F9C3C800B977CD /* Magellan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7632418718F9C3C800B977CD /* Magellan.xcdatamodeld */; };
+		7632418B18F9C3C800B977CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7632418A18F9C3C800B977CD /* Images.xcassets */; };
+		7632419218F9C3C800B977CD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7632419118F9C3C800B977CD /* XCTest.framework */; };
+		7632419318F9C3C800B977CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7632417318F9C3C800B977CD /* Foundation.framework */; };
+		7632419418F9C3C800B977CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7632417718F9C3C800B977CD /* UIKit.framework */; };
+		7632419518F9C3C800B977CD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7632417918F9C3C800B977CD /* CoreData.framework */; };
+		7632419D18F9C3C800B977CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7632419B18F9C3C800B977CD /* InfoPlist.strings */; };
+		7632419F18F9C3C800B977CD /* MagellanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7632419E18F9C3C800B977CD /* MagellanTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7632419618F9C3C800B977CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7632416818F9C3C800B977CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7632416F18F9C3C800B977CD;
+			remoteInfo = Magellan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7632417018F9C3C800B977CD /* Magellan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Magellan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7632417318F9C3C800B977CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7632417518F9C3C800B977CD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7632417718F9C3C800B977CD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7632417918F9C3C800B977CD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7632417D18F9C3C800B977CD /* Magellan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Magellan-Info.plist"; sourceTree = "<group>"; };
+		7632417F18F9C3C800B977CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7632418118F9C3C800B977CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7632418318F9C3C800B977CD /* Magellan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Magellan-Prefix.pch"; sourceTree = "<group>"; };
+		7632418418F9C3C800B977CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7632418518F9C3C800B977CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7632418818F9C3C800B977CD /* Magellan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Magellan.xcdatamodel; sourceTree = "<group>"; };
+		7632418A18F9C3C800B977CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7632419018F9C3C800B977CD /* MagellanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagellanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7632419118F9C3C800B977CD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7632419A18F9C3C800B977CD /* MagellanTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MagellanTests-Info.plist"; sourceTree = "<group>"; };
+		7632419C18F9C3C800B977CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7632419E18F9C3C800B977CD /* MagellanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagellanTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7632416D18F9C3C800B977CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7632417618F9C3C800B977CD /* CoreGraphics.framework in Frameworks */,
+				7632417A18F9C3C800B977CD /* CoreData.framework in Frameworks */,
+				7632417818F9C3C800B977CD /* UIKit.framework in Frameworks */,
+				7632417418F9C3C800B977CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7632418D18F9C3C800B977CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7632419218F9C3C800B977CD /* XCTest.framework in Frameworks */,
+				7632419518F9C3C800B977CD /* CoreData.framework in Frameworks */,
+				7632419418F9C3C800B977CD /* UIKit.framework in Frameworks */,
+				7632419318F9C3C800B977CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7632416718F9C3C800B977CD = {
+			isa = PBXGroup;
+			children = (
+				7632417B18F9C3C800B977CD /* Magellan */,
+				7632419818F9C3C800B977CD /* MagellanTests */,
+				7632417218F9C3C800B977CD /* Frameworks */,
+				7632417118F9C3C800B977CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7632417118F9C3C800B977CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7632417018F9C3C800B977CD /* Magellan.app */,
+				7632419018F9C3C800B977CD /* MagellanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7632417218F9C3C800B977CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7632417318F9C3C800B977CD /* Foundation.framework */,
+				7632417518F9C3C800B977CD /* CoreGraphics.framework */,
+				7632417718F9C3C800B977CD /* UIKit.framework */,
+				7632417918F9C3C800B977CD /* CoreData.framework */,
+				7632419118F9C3C800B977CD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7632417B18F9C3C800B977CD /* Magellan */ = {
+			isa = PBXGroup;
+			children = (
+				7632418418F9C3C800B977CD /* AppDelegate.h */,
+				7632418518F9C3C800B977CD /* AppDelegate.m */,
+				7632418A18F9C3C800B977CD /* Images.xcassets */,
+				7632418718F9C3C800B977CD /* Magellan.xcdatamodeld */,
+				7632417C18F9C3C800B977CD /* Supporting Files */,
+			);
+			path = Magellan;
+			sourceTree = "<group>";
+		};
+		7632417C18F9C3C800B977CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7632417D18F9C3C800B977CD /* Magellan-Info.plist */,
+				7632417E18F9C3C800B977CD /* InfoPlist.strings */,
+				7632418118F9C3C800B977CD /* main.m */,
+				7632418318F9C3C800B977CD /* Magellan-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7632419818F9C3C800B977CD /* MagellanTests */ = {
+			isa = PBXGroup;
+			children = (
+				7632419E18F9C3C800B977CD /* MagellanTests.m */,
+				7632419918F9C3C800B977CD /* Supporting Files */,
+			);
+			path = MagellanTests;
+			sourceTree = "<group>";
+		};
+		7632419918F9C3C800B977CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7632419A18F9C3C800B977CD /* MagellanTests-Info.plist */,
+				7632419B18F9C3C800B977CD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7632416F18F9C3C800B977CD /* Magellan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 763241A218F9C3C800B977CD /* Build configuration list for PBXNativeTarget "Magellan" */;
+			buildPhases = (
+				7632416C18F9C3C800B977CD /* Sources */,
+				7632416D18F9C3C800B977CD /* Frameworks */,
+				7632416E18F9C3C800B977CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Magellan;
+			productName = Magellan;
+			productReference = 7632417018F9C3C800B977CD /* Magellan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7632418F18F9C3C800B977CD /* MagellanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 763241A518F9C3C800B977CD /* Build configuration list for PBXNativeTarget "MagellanTests" */;
+			buildPhases = (
+				7632418C18F9C3C800B977CD /* Sources */,
+				7632418D18F9C3C800B977CD /* Frameworks */,
+				7632418E18F9C3C800B977CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7632419718F9C3C800B977CD /* PBXTargetDependency */,
+			);
+			name = MagellanTests;
+			productName = MagellanTests;
+			productReference = 7632419018F9C3C800B977CD /* MagellanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7632416818F9C3C800B977CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Eric Salahov";
+				TargetAttributes = {
+					7632418F18F9C3C800B977CD = {
+						TestTargetID = 7632416F18F9C3C800B977CD;
+					};
+				};
+			};
+			buildConfigurationList = 7632416B18F9C3C800B977CD /* Build configuration list for PBXProject "Magellan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7632416718F9C3C800B977CD;
+			productRefGroup = 7632417118F9C3C800B977CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7632416F18F9C3C800B977CD /* Magellan */,
+				7632418F18F9C3C800B977CD /* MagellanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7632416E18F9C3C800B977CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7632418018F9C3C800B977CD /* InfoPlist.strings in Resources */,
+				7632418B18F9C3C800B977CD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7632418E18F9C3C800B977CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7632419D18F9C3C800B977CD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7632416C18F9C3C800B977CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7632418918F9C3C800B977CD /* Magellan.xcdatamodeld in Sources */,
+				7632418618F9C3C800B977CD /* AppDelegate.m in Sources */,
+				7632418218F9C3C800B977CD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7632418C18F9C3C800B977CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7632419F18F9C3C800B977CD /* MagellanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7632419718F9C3C800B977CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7632416F18F9C3C800B977CD /* Magellan */;
+			targetProxy = 7632419618F9C3C800B977CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7632417E18F9C3C800B977CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7632417F18F9C3C800B977CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7632419B18F9C3C800B977CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7632419C18F9C3C800B977CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		763241A018F9C3C800B977CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		763241A118F9C3C800B977CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		763241A318F9C3C800B977CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Magellan/Magellan-Prefix.pch";
+				INFOPLIST_FILE = "Magellan/Magellan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		763241A418F9C3C800B977CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Magellan/Magellan-Prefix.pch";
+				INFOPLIST_FILE = "Magellan/Magellan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		763241A618F9C3C800B977CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Magellan.app/Magellan";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Magellan/Magellan-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MagellanTests/MagellanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		763241A718F9C3C800B977CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Magellan.app/Magellan";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Magellan/Magellan-Prefix.pch";
+				INFOPLIST_FILE = "MagellanTests/MagellanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7632416B18F9C3C800B977CD /* Build configuration list for PBXProject "Magellan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				763241A018F9C3C800B977CD /* Debug */,
+				763241A118F9C3C800B977CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		763241A218F9C3C800B977CD /* Build configuration list for PBXNativeTarget "Magellan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				763241A318F9C3C800B977CD /* Debug */,
+				763241A418F9C3C800B977CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		763241A518F9C3C800B977CD /* Build configuration list for PBXNativeTarget "MagellanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				763241A618F9C3C800B977CD /* Debug */,
+				763241A718F9C3C800B977CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7632418718F9C3C800B977CD /* Magellan.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7632418818F9C3C800B977CD /* Magellan.xcdatamodel */,
+			);
+			currentVersion = 7632418818F9C3C800B977CD /* Magellan.xcdatamodel */;
+			path = Magellan.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7632416818F9C3C800B977CD /* Project object */;
+}
