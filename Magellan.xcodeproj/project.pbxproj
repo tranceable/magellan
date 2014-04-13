@@ -22,6 +22,20 @@
 		7632419518F9C3C800B977CD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7632417918F9C3C800B977CD /* CoreData.framework */; };
 		7632419D18F9C3C800B977CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7632419B18F9C3C800B977CD /* InfoPlist.strings */; };
 		7632419F18F9C3C800B977CD /* MagellanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7632419E18F9C3C800B977CD /* MagellanTests.m */; };
+		763241A918F9C8EF00B977CD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 763241A818F9C8EF00B977CD /* CoreLocation.framework */; };
+		763241AB18F9C90300B977CD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 763241AA18F9C90300B977CD /* QuartzCore.framework */; };
+		763241AD18F9C90E00B977CD /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 763241AC18F9C90E00B977CD /* MediaPlayer.framework */; };
+		763241AF18F9C91C00B977CD /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 763241AE18F9C91C00B977CD /* MobileCoreServices.framework */; };
+		763241B118F9C92500B977CD /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 763241B018F9C92500B977CD /* OpenGLES.framework */; };
+		763241B318F9C93400B977CD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 763241B218F9C93400B977CD /* Security.framework */; };
+		768E96E118F9ED1300D94131 /* ProfileController.m in Sources */ = {isa = PBXBuildFile; fileRef = 768E96E018F9ED1300D94131 /* ProfileController.m */; };
+		768E96E418F9ED3E00D94131 /* AppDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 768E96E318F9ED3E00D94131 /* AppDefaults.m */; };
+		768E96E718F9EE5800D94131 /* MapController.m in Sources */ = {isa = PBXBuildFile; fileRef = 768E96E618F9EE5800D94131 /* MapController.m */; };
+		768E96ED18FA905B00D94131 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 768E96EA18FA905B00D94131 /* README.md */; };
+		768E96EE18FA905B00D94131 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 768E96EC18FA905B00D94131 /* XMLReader.m */; };
+		76A876C418F9D68E00AA17BA /* ArcGIS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 76A876C318F9D68E00AA17BA /* ArcGIS.bundle */; };
+		76A876CA18F9D87E00AA17BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76A876C918F9D87E00AA17BA /* Main.storyboard */; };
+		76A876CD18F9D91E00AA17BA /* StartController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A876CC18F9D91E00AA17BA /* StartController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +67,25 @@
 		7632419A18F9C3C800B977CD /* MagellanTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MagellanTests-Info.plist"; sourceTree = "<group>"; };
 		7632419C18F9C3C800B977CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7632419E18F9C3C800B977CD /* MagellanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagellanTests.m; sourceTree = "<group>"; };
+		763241A818F9C8EF00B977CD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		763241AA18F9C90300B977CD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		763241AC18F9C90E00B977CD /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		763241AE18F9C91C00B977CD /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		763241B018F9C92500B977CD /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		763241B218F9C93400B977CD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		768E96DF18F9ED1300D94131 /* ProfileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileController.h; sourceTree = "<group>"; };
+		768E96E018F9ED1300D94131 /* ProfileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileController.m; sourceTree = "<group>"; };
+		768E96E218F9ED3E00D94131 /* AppDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDefaults.h; sourceTree = "<group>"; };
+		768E96E318F9ED3E00D94131 /* AppDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDefaults.m; sourceTree = "<group>"; };
+		768E96E518F9EE5800D94131 /* MapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapController.h; sourceTree = "<group>"; };
+		768E96E618F9EE5800D94131 /* MapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapController.m; sourceTree = "<group>"; };
+		768E96EA18FA905B00D94131 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		768E96EB18FA905B00D94131 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		768E96EC18FA905B00D94131 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
+		76A876C318F9D68E00AA17BA /* ArcGIS.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ArcGIS.bundle; sourceTree = "<group>"; };
+		76A876C918F9D87E00AA17BA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		76A876CB18F9D91E00AA17BA /* StartController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartController.h; sourceTree = "<group>"; };
+		76A876CC18F9D91E00AA17BA /* StartController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +93,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				763241B318F9C93400B977CD /* Security.framework in Frameworks */,
+				763241B118F9C92500B977CD /* OpenGLES.framework in Frameworks */,
+				763241AF18F9C91C00B977CD /* MobileCoreServices.framework in Frameworks */,
+				763241AD18F9C90E00B977CD /* MediaPlayer.framework in Frameworks */,
+				763241AB18F9C90300B977CD /* QuartzCore.framework in Frameworks */,
+				763241A918F9C8EF00B977CD /* CoreLocation.framework in Frameworks */,
 				7632417618F9C3C800B977CD /* CoreGraphics.framework in Frameworks */,
 				7632417A18F9C3C800B977CD /* CoreData.framework in Frameworks */,
 				7632417818F9C3C800B977CD /* UIKit.framework in Frameworks */,
@@ -103,6 +142,12 @@
 		7632417218F9C3C800B977CD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				763241B218F9C93400B977CD /* Security.framework */,
+				763241B018F9C92500B977CD /* OpenGLES.framework */,
+				763241AE18F9C91C00B977CD /* MobileCoreServices.framework */,
+				763241AC18F9C90E00B977CD /* MediaPlayer.framework */,
+				763241AA18F9C90300B977CD /* QuartzCore.framework */,
+				763241A818F9C8EF00B977CD /* CoreLocation.framework */,
 				7632417318F9C3C800B977CD /* Foundation.framework */,
 				7632417518F9C3C800B977CD /* CoreGraphics.framework */,
 				7632417718F9C3C800B977CD /* UIKit.framework */,
@@ -117,9 +162,20 @@
 			children = (
 				7632418418F9C3C800B977CD /* AppDelegate.h */,
 				7632418518F9C3C800B977CD /* AppDelegate.m */,
+				76A876C918F9D87E00AA17BA /* Main.storyboard */,
 				7632418A18F9C3C800B977CD /* Images.xcassets */,
 				7632418718F9C3C800B977CD /* Magellan.xcdatamodeld */,
+				768E96E218F9ED3E00D94131 /* AppDefaults.h */,
+				768E96E318F9ED3E00D94131 /* AppDefaults.m */,
+				76A876CB18F9D91E00AA17BA /* StartController.h */,
+				76A876CC18F9D91E00AA17BA /* StartController.m */,
+				768E96DF18F9ED1300D94131 /* ProfileController.h */,
+				768E96E018F9ED1300D94131 /* ProfileController.m */,
+				768E96E518F9EE5800D94131 /* MapController.h */,
+				768E96E618F9EE5800D94131 /* MapController.m */,
+				768E96E818FA904C00D94131 /* Drop in code */,
 				7632417C18F9C3C800B977CD /* Supporting Files */,
+				76A876C318F9D68E00AA17BA /* ArcGIS.bundle */,
 			);
 			path = Magellan;
 			sourceTree = "<group>";
@@ -151,6 +207,24 @@
 				7632419B18F9C3C800B977CD /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		768E96E818FA904C00D94131 /* Drop in code */ = {
+			isa = PBXGroup;
+			children = (
+				768E96E918FA905B00D94131 /* XMLReader */,
+			);
+			name = "Drop in code";
+			sourceTree = "<group>";
+		};
+		768E96E918FA905B00D94131 /* XMLReader */ = {
+			isa = PBXGroup;
+			children = (
+				768E96EA18FA905B00D94131 /* README.md */,
+				768E96EB18FA905B00D94131 /* XMLReader.h */,
+				768E96EC18FA905B00D94131 /* XMLReader.m */,
+			);
+			path = XMLReader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,8 +302,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76A876C418F9D68E00AA17BA /* ArcGIS.bundle in Resources */,
 				7632418018F9C3C800B977CD /* InfoPlist.strings in Resources */,
+				768E96ED18FA905B00D94131 /* README.md in Resources */,
 				7632418B18F9C3C800B977CD /* Images.xcassets in Resources */,
+				76A876CA18F9D87E00AA17BA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +326,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7632418918F9C3C800B977CD /* Magellan.xcdatamodeld in Sources */,
+				768E96E118F9ED1300D94131 /* ProfileController.m in Sources */,
+				768E96EE18FA905B00D94131 /* XMLReader.m in Sources */,
 				7632418618F9C3C800B977CD /* AppDelegate.m in Sources */,
+				76A876CD18F9D91E00AA17BA /* StartController.m in Sources */,
+				768E96E718F9EE5800D94131 /* MapController.m in Sources */,
 				7632418218F9C3C800B977CD /* main.m in Sources */,
+				768E96E418F9ED3E00D94131 /* AppDefaults.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,10 +449,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = "$(HOME)/Library/SDKs/ArcGIS/iOS/";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Magellan/Magellan-Prefix.pch";
 				INFOPLIST_FILE = "Magellan/Magellan-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					ArcGIS,
+					"-l",
+					"c++",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -380,10 +471,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = "$(HOME)/Library/SDKs/ArcGIS/iOS/";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Magellan/Magellan-Prefix.pch";
 				INFOPLIST_FILE = "Magellan/Magellan-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					ArcGIS,
+					"-l",
+					"c++",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -447,6 +547,7 @@
 				763241A418F9C3C800B977CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		763241A518F9C3C800B977CD /* Build configuration list for PBXNativeTarget "MagellanTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +556,7 @@
 				763241A718F9C3C800B977CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
